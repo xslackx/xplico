@@ -72,6 +72,11 @@ extern "C" {
 #define ARPHRD_TIA_102_PRJ_25_CAI	33	/* TIA-102 Project 25 CAI	*/
 #define ARPHRD_WIEGAND_INTERFACE	34	/* Wiegand Interface		*/
 #define ARPHRD_PURE_IP			35	/* Pure IP			*/
+#define ARPHRD_HW_EXP1  36 /* RFC 5494					*/
+#define ARPHRD_HFI 37 /* Tseng-Hui Lin				*/
+#define ARPHRD_UNIFIED_BUS 38 /* Wei Pan			*/
+#define ARPHRD_HW_EXP2 256  /* RFC 5494				*/
+#define ARPHRD_ATHERNET 257 /* Geoffroy Gramaize	*/
 
 /* Virtual ARP types for non ARP hardware used in Linux cooked mode. */
 #define ARPHRD_IPGRE	778		/* GRE over IP */
